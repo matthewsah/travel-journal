@@ -17,7 +17,7 @@ export default function TravelCard(props: Props) {
     <div className='travel-card'>
       {/*
       //@ts-ignore*/}
-      <img src={require(`../images/${picture}`)} alt={`$(country) picture`} className="travel-card--picture"></img>
+      <img src={require(`../images/${picture}`)} alt={`$(country)`} className="travel-card--picture"></img>
       <div className="travel-card--content">
         <div className="travel-card--location-and-link">
           <i className="fa-solid fa-location-dot travel-card--location-icon fa-xl"></i>
